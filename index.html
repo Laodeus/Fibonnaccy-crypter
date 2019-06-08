@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fibonnacy Encrypter</title>
+		<script src="js.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	    <section>
+	        <div id="Titre">Fibonnacy Encrypter<br /><br /></div>
+	    </section>
+	    <section>
+	        <div id="description">
+	            Ce code sert a crypté et décrypter des message<br /> 
+	            grace a un nombre pseudo aléatoire de fibonnacy.<br />
+	            <br />
+	            Ce code n'est pas vulnérable a l'analyse statistique.<br />
+	            <br />
+	            Plus la clée "Seed" est longue, plus le message est sécurisé.<br /><br /><br />
+	            
+	        </div>
+	    </section>
+	    <section>
+	        <input type ="text" id ="seed" placeholder="Seed" /><br /><br />
+	        <textarea id ="message" placeholder="Message"></textarea><br /><br />
+	        <button onClick="Encrypt()"> encrypt </button> <button onClick="Decrypt()"> Decrypt </button>
+	    </section>
+	    <section>
+	        <div id="resultat"></div>
+		</section>
+	</body>
+</html>
